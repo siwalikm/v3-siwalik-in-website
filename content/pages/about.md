@@ -1,13 +1,29 @@
 ---
 title: "About me"
 template: "page"
-socialImage: "/media/image-2.jpg"
+socialImage: "/media/siwalik_cover.jpg"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+#### Hi Internet Explorers!
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-2.jpg)
+![Author's photo with hills and clouds in the background.](/media/siwalik_cover.jpg)
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
+I'm Siwalik Mukherjee, a software developer and designer from the 'City of Joy', currently living in Chennai, India.
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+I'm also left-handed (<i>fun fact: only 5.2% in India</i>), I love drinking good coffee and like sharing about my experiences and learnings in software development and life.
+
+#### How I got here
+
+I was fifteen, and full of vim and vigour when I laid hands on the Windows 2000 PC that my family got me. It was my first interaction with technology (after the television, yeah). Like a regular kid who poked around HTML and CSS those days, I geeked out building simple static sites on good old Yahoo Geocities.
+
+Soon, I graduated to creating and maintaining an online blog called Techtreck Magazine, where I wrote about tech and white hat stuffs. This was also my primary web-dev playground at that time and pretty hit among my peers at high school. Nearly two years in and a few thousand visitors/month later had to pull the plugs on this project to stay out of trouble at school after some friends bricked school computers and all suspects pointed to some article they read on my blog. Soon I moved to Bangalore - the Silicon Valley of India, to complete my graduation in CS Engineering.
+
+I’m incredibly fortunate to have mingled with peers who motivated me a lot in college to grow. They shared the same values as I did for learning. This was a period when I taught myself to design and code and got my first break as a web developer. Little did I know that my first gig set the stage for my career.
+
+> <i>It's a huge opportunity to love doing something and also have an entire booming industry to support your passion and financial needs. Isn't it?</i> 
+
+College was disappointing for the first two years with ancient syllabus being taught which didn't motivate to create but only replicate. So I started focussing on things that didn't suck. The last two years in college, I freelanced a lot for small businesses and wrote articles on various websites about the little things I learnt. <i>By the way, did I tell you that one of my answers on <a target="blank" rel="noreferrer" href="https://qr.ae/TUvKfR">Quora</a> got me my first full-time job in one of India's biggest unicorn startups (Freshworks)?</i>
+
+#### What now
+
+These days, apart from my work I do a bit of side hustle such as working on coding projects, graphic designing and of course, countless scrolling on Reddit (does that count?). When I’m not building websites, I enjoy music, <a href="https://www.duolingo.com/siwalikm" target="blank" rel="noreferrer">learning Spanish</a> and hanging out with friends and family. My mom says I can make pretty great milkshakes. Have something for me? Ask me anything (moderately decent) on <a target="blank" rel="noreferrer" href="https://twitter.com/siwalikm">my Twitter</a>. I’d love to answer those.
