@@ -5,6 +5,9 @@ const getIcon = (name: string) => {
   let icon;
 
   switch (name) {
+    case 'dribbble':
+      icon = ICONS.DRIBBBLE;
+      break;
     case 'twitter':
       icon = ICONS.TWITTER;
       break;
