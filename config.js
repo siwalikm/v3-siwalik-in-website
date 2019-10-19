@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://siwalik.website',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+  title: 'Siwalik Mukherjee | Home Page',
+  subtitle: 'Engineer. Writer. Leader.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -27,10 +27,11 @@ module.exports = {
   author: {
     name: 'John Doe',
     photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    bio: 'Software Engineer | Artist at heart',
     contacts: {
+      dribbble: '#',
       email: '',
-      facebook: '#',
+      facebook: '',
       telegram: '#',
       twitter: '#',
       github: '#',
