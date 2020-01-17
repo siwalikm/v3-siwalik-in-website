@@ -44,6 +44,15 @@ const getIcon = (name: string) => {
     case 'weibo':
       icon = ICONS.WEIBO;
       break;
+    case 'codepen':
+      icon = ICONS.CODEPEN;
+      break;
+    case 'youtube':
+      icon = ICONS.YOUTUBE;
+      break;
+    case 'soundcloud':
+      icon = ICONS.SOUNDCLOUD;
+      break;
     default:
       icon = {};
       break;
