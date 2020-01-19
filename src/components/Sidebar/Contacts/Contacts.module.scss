@@ -31,11 +31,11 @@
       &-link {
         border: 0;
         display: flex;
-        color: $color-base;
+        color: var(--color-base);
   
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: var(--color-highlight);
         }
 
       }

@@ -16,7 +16,7 @@
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: var(--color-highlight);
       }
 
       &--disable {
@@ -39,7 +39,7 @@
 
       &:hover,
       &:focus {
-        color: $color-primary;
+        color: var(--color-highlight);
       }
 
       &--disable {

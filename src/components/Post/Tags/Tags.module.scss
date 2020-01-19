@@ -21,11 +21,11 @@
         border: 1px solid $color-gray-border;
         text-decoration: none;
         border-radius: $button-border-radius;
-        color: $color-base;
+        color: var(--color-base);
 
         &:hover,
         &:focus {
-          color: $color-primary;
+          color: var(--color-highlight);
         }
 
       }
