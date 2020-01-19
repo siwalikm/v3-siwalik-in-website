@@ -5,7 +5,20 @@ html {
   font-size: $typographic-root-font-size;
 }
 
+body.dark {
+  -webkit-font-smoothing: antialiased;
+  --color-base: white;
+  --color-highlight: #BC86FC;
+  --color-background: #282c36;
+  background-color: var(--color-background);
+}
+
 body {
+  --color-base: #222;
+  --color-highlight: #6200EE;
+  --color-background: white;
+
+  background-color: $color-white;
   margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
   color: $typographic-base-font-color;
@@ -16,6 +29,80 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: 0.5s all;
+}
+
+.tinyLetter__container {
+  width: auto;
+  padding: 1.25rem;
+  background: var(--color-background);
+  border-radius: 0.3125rem;
+  border: 2px solid var(--color-highlight);
+  margin: 30px 0;
+
+  &__title {
+    color: var(--color-base);
+    margin: 0 0 1.25rem;
+  }
+
+  form {
+    display: flex;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  input[type="email"] {
+    outline: none;
+    display: inline-block;
+    width: 70%;
+    padding: 0.5rem;
+    border: 2px solid var(--color-highlight);
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+  }
+
+  input[type="email"]:focus {
+    border: 2px solid var(--color-base);
+  }
+
+  input[type="submit"] {
+    color: var(--color-background);
+    background: var(--color-highlight);
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    width: 17%;
+    display: inline-block;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+    margin: 0 0 0 0.625rem;
+    font-size: 1rem;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  }
+
+  input[type="submit"]:hover {
+    background-color: var(--color-base);
+  }
+
+  @media screen and (max-width: 736px) {
+
+    input[type="email"] {
+      display: block;
+      width: 100%;
+    }
+    input[type="submit"] {
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      width: 50%;
+      display: block;
+    }
+  }
 }
 
 h1,
@@ -39,35 +126,35 @@ h2 {
   font-size: $typographic-base-font-size * 1.6875;
   @include line-height(1.5);
   @include margin-top(2);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h3 {
   font-size: $typographic-base-font-size * 1.375;
   @include line-height(1);
   @include margin-top(2);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h4 {
   font-size: $typographic-base-font-size * 1.2;
   @include line-height(1);
   @include margin-top(1.5);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h5 {
   font-size: $typographic-base-font-size;
   @include line-height(1);
   @include margin-top(2.5);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 h6 {
   font-size: $typographic-base-font-size;
   @include line-height(1);
   @include margin-top(2.5);
-  @include margin-bottom(.5);
+  @include margin-bottom(0.5);
 }
 
 img {
@@ -81,13 +168,21 @@ hr {
   margin-top: 52px;
   margin-bottom: 52px;
   border: 0;
-  color: $color-base;
+  color: var(--color-base);
   display: block;
   height: 26px;
   margin-right: auto;
   margin-left: auto;
   background-size: 100% 26px;
-  background-image: linear-gradient(to bottom, transparent 1px, transparent 11px, $color-base 11px, $color-base 15px, transparent 15px, transparent 26px);
+  background-image: linear-gradient(
+    to bottom,
+    transparent 1px,
+    transparent 11px,
+    var(--color-base) 11px,
+    var(--color-base) 15px,
+    transparent 15px,
+    transparent 26px
+  );
   width: 100px;
 }
 
@@ -100,7 +195,6 @@ a {
   &:active {
     color: $typographic-link-s-font-color;
   }
-
 }
 
 b,
@@ -116,7 +210,6 @@ ul {
     padding: 0 5px;
     margin-bottom: 10px;
   }
-
 }
 
 p {
@@ -137,9 +230,9 @@ figure {
 }
 
 figcaption {
-  @include line-height(.75);
-  @include margin-top(.25);
-  color: $color-base;
+  @include line-height(0.75);
+  @include margin-top(0.25);
+  color: var(--color-base);
   font-size: $typographic-small-font-size;
   font-style: italic;
   margin-bottom: 0;
@@ -149,6 +242,10 @@ figcaption {
 .anchor {
   margin-left: -30px !important;
   padding-right: 14px !important;
+
+  svg {
+    fill: var(--color-base);
+  }
 }
 
 @include breakpoint-sm {
@@ -165,5 +262,4 @@ figcaption {
   .float-left {
     float: left;
   }
-
 }

@@ -44,6 +44,7 @@
     "gatsby": "^2.18.23",
     "gatsby-link": "^2.2.28",
     "gatsby-plugin-catch-links": "^2.1.24",
+    "gatsby-plugin-dark-mode": "^1.1.0",
     "gatsby-plugin-feed": "^2.3.26",
     "gatsby-plugin-flow": "^1.1.18",
     "gatsby-plugin-google-gtag": "^1.1.20",
@@ -79,7 +80,8 @@
     "react": "^16.12.0",
     "react-disqus-comments": "^1.4.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "react-tinyletter": "^0.3.2"
   },
   "devDependencies": {
     "@babel/core": "7.8.3",
