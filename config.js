@@ -6,8 +6,9 @@ module.exports = {
   title: 'Siwalik Mukherjee | Home Page',
   subtitle: 'Engineer. Writer. Leader.',
   copyright: '© All rights reserved.',
+  // copyright: '© All rights reserved.<br> This is V3 of my personal site. V2 • V1',
   disqusShortname: '',
-  postsPerPage: 4,
+  postsPerPage: 10,
   googleAnalyticsId: 'UA-73379983-2',
   useKatex: false,
   menu: [
@@ -20,25 +21,25 @@ module.exports = {
       path: '/pages/about'
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
+      label: 'Projects',
+      path: '/pages/projects'
     }
   ],
   author: {
-    name: 'John Doe',
+    name: 'Siwalik Mukherjee',
     photo: '/photo.jpg',
-    bio: 'Software Engineer | Artist at heart',
+    bio: 'Frontend Engineer at heart and artist by hobby. I write about my learnings in tech, musings and things that pique my fancy from time to time.',
     contacts: {
-      dribbble: '#',
-      email: '',
+      twitter: 'siwalikm',
+      dribbble: 'siwalikm',
+      email: 'contact@siwalik.in',
       facebook: '',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      telegram: '',
+      github: 'siwalikm',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'siwalikm',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',

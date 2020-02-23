@@ -8096,10 +8096,16 @@ gatsby-plugin-catch-links@^2.2.1:
     "@babel/runtime" "^7.8.7"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-feed@^2.4.1:
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.4.1.tgz#a85301556e080f89a47d21d95271ff18a3b0482d"
-  integrity sha512-4+vdto148cIKPJT7bI9i//opwUu6ZqO5l1WNGAGubByWPLIA47VadcC5GzMHpWVtTMZugnmfotZI8t/3iCNP3w==
+"gatsby-plugin-dark-mode@github:siwalikm/gatsby-plugin-dark-mode":
+  version "1.1.0"
+  resolved "https://codeload.github.com/siwalikm/gatsby-plugin-dark-mode/tar.gz/076e0869ac1a3ee36e1fe0b2e8717ba4c1d71b60"
+  dependencies:
+    prop-types "^15.5.7"
+
+gatsby-plugin-feed@^2.3.26:
+  version "2.3.26"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-feed/-/gatsby-plugin-feed-2.3.26.tgz#00043a581b81b73c595b7620fe0f381d241ca8da"
+  integrity sha512-L2/LyCkZ+cPF2QAISszEwi2D2CuRk6ELp75d8tN7oCRDKkcSCJZND6gzIvBxNzGjEnbxtTk9OhL/1TnmJTALNQ==
   dependencies:
     "@babel/runtime" "^7.8.7"
     "@hapi/joi" "^15.1.1"

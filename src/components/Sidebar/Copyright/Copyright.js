@@ -9,6 +9,7 @@ type Props = {
 const Copyright = ({ copyright }: Props) => (
   <div className={styles['copyright']}>
     {copyright}
+    {/* dangerouslySetInnerHTML={ __html: { ...copyright } } */}
   </div>
 );
 
