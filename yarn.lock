@@ -6757,10 +6757,9 @@ gatsby-plugin-catch-links@^2.1.24:
     "@babel/runtime" "^7.7.6"
     escape-string-regexp "^1.0.5"
 
-gatsby-plugin-dark-mode@^1.1.0:
+"gatsby-plugin-dark-mode@github:siwalikm/gatsby-plugin-dark-mode":
   version "1.1.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-dark-mode/-/gatsby-plugin-dark-mode-1.1.0.tgz#ee4349d69448cefaab077de4abd8e90c1ee0152f"
-  integrity sha512-NXxB9n1Kogt372mV2VIZl1TdMSsGmzbhimb65Df0TQWuakBe3zUt0BOsuJ2I7+02U3RA7hYv9iRFJqswLoUXWQ==
+  resolved "https://codeload.github.com/siwalikm/gatsby-plugin-dark-mode/tar.gz/076e0869ac1a3ee36e1fe0b2e8717ba4c1d71b60"
   dependencies:
     prop-types "^15.5.7"
 
