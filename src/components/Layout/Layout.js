@@ -40,7 +40,7 @@ const Layout = ({ children, title, description, socialImage }: Props) => {
               type="checkbox"
               onChange={(e) => toggleTheme(e.target.checked ? 'dark' : 'light')}
               // checked={theme === 'dark'} // commenting due to bug in addon
-              checked={window.__theme === 'dark'}
+              checked={theme === 'dark'}
             />{' '}
             <label htmlFor="dn" className="toggle">
               <span className="toggle__handler">
