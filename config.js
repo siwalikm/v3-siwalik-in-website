@@ -28,7 +28,7 @@ module.exports = {
   author: {
     name: 'Siwalik Mukherjee',
     photo: '/photo.jpg',
-    bio: 'Frontend Engineer at heart and artist by hobby. I write about my learnings in tech, musings and things that pique my fancy from time to time.',
+    bio: 'Frontend Engineer at heart and artist by hobby. I write about my learnings in tech, musings and things that pique my interest from time to time.',
     contacts: {
       twitter: 'siwalikm',
       dribbble: 'siwalikm',
