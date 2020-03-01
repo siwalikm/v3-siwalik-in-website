@@ -3,8 +3,8 @@
 module.exports = {
   url: 'https://siwalik.website',
   pathPrefix: '/',
-  title: 'Siwalik Mukherjee | Home Page',
-  subtitle: 'Engineer. Writer. Leader.',
+  title: 'Siwalik Mukherjee | Home Page | Software Engineer and Artist',
+  subtitle: 'Engineer. Writer. Creative.',
   copyright: '© All rights reserved.',
   // copyright: '© All rights reserved.<br> This is V3 of my personal site. V2 • V1',
   disqusShortname: '',

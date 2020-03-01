@@ -3,7 +3,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
-import { ThemeToggler } from 'gatsby-plugin-dark-mode';
+import DarkModeToggle from '../../themeChanger/DarkModeToggle';
+
 import { useSiteMetadata } from '../../hooks';
 import styles from './Layout.module.scss';
 
@@ -32,32 +33,7 @@ const Layout = ({ children, title, description, socialImage }: Props) => {
         <meta name="twitter:description" content={description} />
         <meta name="twitter:image" content={metaImageUrl} />
       </Helmet>
-      <ThemeToggler>
-        {({ theme, toggleTheme }) => (
-          <div className="toggleWrapper">
-            <input
-              id="dn"
-              type="checkbox"
-              onChange={(e) => toggleTheme(e.target.checked ? 'dark' : 'light')}
-              // checked={theme === 'dark'} // commenting due to bug in addon
-              checked={theme === 'dark'}
-            />{' '}
-            <label htmlFor="dn" className="toggle">
-              <span className="toggle__handler">
-                <span className="crater crater--1"></span>
-                <span className="crater crater--2"></span>
-                <span className="crater crater--3"></span>
-              </span>
-              <span className="star star--1"></span>
-              <span className="star star--2"></span>
-              <span className="star star--3"></span>
-              <span className="star star--4"></span>
-              <span className="star star--5"></span>
-              <span className="star star--6"></span>
-            </label>
-          </div>
-        )}
-      </ThemeToggler>
+      <DarkModeToggle />
       {children}
     </div>
   );
