@@ -35,7 +35,7 @@ const Post = ({ post }: Props) => {
 
           <h3 className="tinyLetter__container__title"> Subscribe to my Newsletter</h3>
           <p>
-            Every 2 weeks I write you a letter about tech, personal growth and
+            Every few weeks I write about tech, personal growth and
             other things I wish I knew a year ago. No spams. Unsubscribe at <i>any</i> time.
           </p>
           <TinyLetter list="siwalik">
