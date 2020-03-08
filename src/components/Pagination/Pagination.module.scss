@@ -20,8 +20,9 @@
       }
 
       &--disable {
-        pointer-events: none;
-        color: lighten($color-gray, 20%);
+        display: none;
+        // pointer-events: none;
+        // color: lighten($color-gray, 20%);
       }
 
     }
@@ -43,8 +44,9 @@
       }
 
       &--disable {
-        pointer-events: none;
-        color: lighten($color-gray, 20%);
+        display: none;
+        // pointer-events: none;
+        // color: lighten($color-gray, 20%);
       }
 
     }
