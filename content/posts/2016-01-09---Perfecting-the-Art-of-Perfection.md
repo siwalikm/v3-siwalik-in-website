@@ -6,7 +6,7 @@ draft: false
 date: 2018-03-06T23:46:37.121Z
 description: >-
   Fundamentals of a JWT token and how we can benefit from it for authenticating
-  communications between two parties, all of this using vanilla NodeJS and
+  communications between two parties, all of this using node.js and vanilla
   javascript.
 category: Tutorial
 tags:
