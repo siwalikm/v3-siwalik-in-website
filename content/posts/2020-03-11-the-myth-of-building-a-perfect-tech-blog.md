@@ -2,7 +2,7 @@
 template: post
 title: The Myth of Building a Perfect Tech Blog
 slug: myth-of-perfect-tech-blog
-draft: true
+draft: false
 date: 2020-03-11T16:15:49.040Z
 description: >-
   After spending an eternity trying to figure out what tech stack to use and how
