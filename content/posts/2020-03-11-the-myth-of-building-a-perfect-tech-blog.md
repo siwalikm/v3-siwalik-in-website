@@ -14,9 +14,7 @@ tags:
 ---
 > After spending an eternity trying to figure out what tech stack to use and how to design an extraordinary tech blog, I finally let go of all my anxiety and decided to write this article about my journey behind building this blog.
 
-![photo of a bunch of pens with lid off one](/media/photo-1527597771870-8f1e06ff8d8c.jpeg "Lets get ourselves creative - Photograph by Lviv, Ukraine on Unsplash")
-
-
+![aerial photo of pine trees with one of them standing out](/media/UV5aY8N73dA.png "Autumn loading - Photograph by @ralics on Unsplash")
 
 In my short life as a software developer, I've read many many blogs, wrote a few and even created and maintained a tech-news blog back in 2009. But it was all very different this time. I grew up looking at incredible and often unbelievable website designs on awwwards.com (which in a way inspired me to pick up frontend), so when it came to my blog, I wanted it to stand out visually.
 
@@ -24,7 +22,7 @@ I needed a blog where I can write about my thoughts and learnings but at the sam
 
 Few months down the drain, I was sitting in my office cafeteria sipping some black coffee and retrospecting the never-ending blog project and suddenly something struck me. Was I living in a bubble trying to make the perfect tech blog and in the process forgot the real reason behind building it?
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">It&#39;s blowing my mind that people care more about the tech stack of their blog than the actual content of it.</p>&mdash; Kitze (@thekitze) <a href="https://twitter.com/thekitze/status/1168929106613997569?ref_src=twsrc%5Etfw">September 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">It&#39;s blowing my mind that people care more about the tech stack of their blog than the actual content of it.</p>&mdash; Kitze (@thekitze) <a href="https://twitter.com/thekitze/status/1168929106613997569?ref_src=twsrc%5Etfw">September 3, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 I was not alone. I'm sure many of you would have been in similar scenarios while building something or even in real life where for example you thought you needed that Yeti microphone to start a podcast or how buying a DSLR can finally help you pursue your hobby of photography.
 
