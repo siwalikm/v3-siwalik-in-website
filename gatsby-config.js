@@ -15,6 +15,7 @@ module.exports = {
     author: siteConfig.author
   },
   plugins: [
+    'gatsby-plugin-twitter',
     'gatsby-plugin-use-dark-mode',
     {
       resolve: 'gatsby-source-filesystem',
