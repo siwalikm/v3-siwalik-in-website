@@ -1,20 +1,22 @@
 ---
-template: "post"
-title: "The Myth of Building a Perfect Tech Blog"
-slug: "myth-of-perfect-tech-blog"
+template: post
+slug: myth-of-perfect-tech-blog
 draft: false
-date: "2020-03-23T16:15:49.040Z"
-description: "After spending an eternity trying to figure out what tech stack to use and how to design an extraordinary tech blog, I finally let go of all my anxiety and decided to write this article about my journey behind building this blog."
-socialImage: "/media/UV5aY8N73dA.png"
-category: "Reflections"
+socialImage: /media/UV5aY8N73dA.png
+title: The Myth of Building a Perfect Tech Blog
+date: '2020-03-23T16:15:49.040Z'
+description: >-
+  After spending an eternity trying to figure out what tech stack to use and how
+  to design an extraordinary tech blog, I finally let go of all my anxiety and
+  decided to write this article about my journey behind building this blog.
+category: Reflections
 tags:
-  - "blog"
-  - "musings"
+  - blog
+  - musings
 ---
-
 > After months of procrastination on building a "perfect" tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
 
-![aerial photo of pine trees with one of them standing out](/media/UV5aY8N73dA.png "Autumn loading - Photograph by @ralics on Unsplash")
+![aerial photo of pine trees with one of them standing out](/media/photo-1531875909331-5c13fb705721.jpeg "Autumn loading - Photograph by @ralics on Unsplash")
 
 Phew!  I think a lot of weary blog builders like me might want to learn from my thought process behind building a blog.
 
