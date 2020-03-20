@@ -8,7 +8,7 @@ socialImage: "/media/siwalik_cover.jpg"
 
 ![Author's photo with hills and clouds in the background.](/media/siwalik_cover.jpg)
 
-I'm Siwalik Mukherjee, a software developer and designer from the 'City of Joy', currently living in Chennai, India.
+I'm Siwalik Mukherjee, a software engineer and designer from the 'City of Joy', currently living in Chennai, India.
 
 I'm also left-handed (<i>fun fact: only 5.2% in India</i>), I love drinking good coffee and like sharing about my experiences and learnings in software development and life.
 

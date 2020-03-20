@@ -5,7 +5,7 @@ import { TinyLetter } from 'react-tinyletter';
 import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
-import Copyright from './Copyright';
+import Copyright from '../Copyright';
 import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';

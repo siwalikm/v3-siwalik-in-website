@@ -1,38 +1,38 @@
 ---
-template: post
-title: The Myth of Building a Perfect Tech Blog
-slug: myth-of-perfect-tech-blog
+template: "post"
+title: "The Myth of Building a Perfect Tech Blog"
+slug: "myth-of-perfect-tech-blog"
 draft: false
-date: 2020-03-23T16:15:49.040Z
-description: >-
-  After spending an eternity trying to figure out what tech stack to use and how
-  to design an extraordinary tech blog, I finally let go of all my anxiety and
-  decided to write this article about my journey behind building this blog.
-category: Personal
+date: "2020-03-23T16:15:49.040Z"
+description: "After spending an eternity trying to figure out what tech stack to use and how to design an extraordinary tech blog, I finally let go of all my anxiety and decided to write this article about my journey behind building this blog."
+socialImage: "/media/UV5aY8N73dA.png"
+category: "Reflections"
 tags:
-  - productivity
+  - "blog"
+  - "musings"
 ---
-> After spending months procrastinating on building a perfect tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
+
+> After months of procrastination on building a "perfect" tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
 
 ![aerial photo of pine trees with one of them standing out](/media/UV5aY8N73dA.png "Autumn loading - Photograph by @ralics on Unsplash")
 
-Since my very first interaction with a computer, blogs posts have been an integral part of my learning. Along the way, I had published a few blog posts myself and also created a maintained a tech-blog back in the day (when Blogspot was a thing). But despite that when I saw down to build a blog for me last year, I felt completely lost.
+Phew!  I think a lot of weary blog builders like me might want to learn from my thought process behind building a blog.
+
+Since my very first interaction with a computer, blog posts have been everything to my learning. Along the way, I had published a few blog posts myself. I created and maintained a tech-blog back in the day when Blogspot was a thing. But despite all that experience, I was spoiled for choice when I saw down to build a blog for myself last year. I was completely lost.
 
 I grew up looking at incredible and often unbelievable web-designs on awwwards.com (which in a way inspired me to pick up frontend), so when it came to my blog, I wanted it to stand out in all possible ways.
 
 ## Chasing Rainbows
 
-I knew I wanted to build something outstanding, something that would help me deliver a moment of wow to my readers and showcase my skills as a frontend person. So I went to my journal and started figuring out my secret herbs and spices.
+I knew I wanted to build something outstanding—something that would make my readers go “wow”. In all honesty, I want to show off my tech skills as someone who has been a frontend engineer for quite some time . Duh! So I went to my journal and started figuring out my secret herbs and spices.
 
 ![photo of a todo checklist](/media/things-to-do-siwalik.jpg "A checklist from my journal")
 
-A few months later, I had a blog which was still no way near completion. To top that, now and then I would see something beautiful online and come back to my drawing board and re-iterate on my blog in terms of tech and UI, thanks to my monkey mind.
-
-Clearly I didn’t know what I was looking for and soon enough I started procrastinating and pushing this project for later.
+A few months later, I had a blog that was still no way near completion. To top that, now and then I would see something beautiful online and come back to my drawing board and re-iterate on my blog in terms of tech and UI, thanks to my monkey mind. Clearly, I didn’t know what to prioritise  and soon enough I started procrastinating and pushing this project for later.
 
 ## Finding the Purpose
 
-Then a couple of weeks later I sat down one evening to retrospect things not going on as planned in my life (I try to do this few time every month). And it suddenly struck me. I thought about why I wanted to create a blog in the first place and what is that I’m doing wrong.
+Then a couple of weeks later I sat down one evening to retrospect things not going on as planned in my life (I try to do this a few times every month). And it suddenly struck me. I thought about why I wanted to create a blog in the first place and what is that I’m doing wrong.
 
 I have always wanted to document my tech journey and learn in public and share it as I grow. But somewhere along the line, I completely forgot about the purpose and focussed on the not so important things.
 
@@ -40,7 +40,7 @@ I have always wanted to document my tech journey and learn in public and share i
 
 If you’ve ever told yourself you’ll start that podcast once you have that mic or finally start running once you buy a running shoe, I was at that exact place.
 
-So, the next weekend I decided to completely scrap the website I spent months on, fork a minimal opensource project from Github and start freaking writing.
+So, the next weekend I decided to completely scrap the website I spent months on, fork a minimal open source project from Github and start freaking writing.
 
 > Make it work, then make it better.
 
@@ -50,4 +50,4 @@ As this saying goes, I plan to incrementally tweak things over time and still fo
 
 I don’t know if a perfect tech blog exists. But If it does, it must be its contents. Ego is the enemy folks! Let go of your inhibitions and focus on shipping the smallest chunk of work which will provide value to your target audience. That’s it.
 
-If you’ve read this far, thank you for reading my very first blog post on this website. Share it if you found this helpful and consider subscribing.
+If you’ve read this far, thank you for reading my very first blog post on this website. Shout-out to my good friend <a target="_blank" rel="noopener" href="https://vandana.guru/">Vandana Guru</a> who helped me edit this post. Share it if you found this helpful and consider subscribing.
