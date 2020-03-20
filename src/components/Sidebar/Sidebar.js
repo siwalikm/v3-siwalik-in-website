@@ -6,13 +6,14 @@ import Contacts from './Contacts';
 import Menu from './Menu';
 import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
+import Copyright from '../Copyright';
 
 type Props = {
   isIndex?: boolean
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, menu } = useSiteMetadata();
+  const { author, menu, copyright } = useSiteMetadata();
 
   return (
     <div className={styles['sidebar']}>
@@ -35,6 +36,7 @@ const Sidebar = ({ isIndex }: Props) => {
             <input type="submit" value="Subscribe" />
           </TinyLetter>
         </div> */}
+      <Copyright copyright={copyright} />
       </div>
     </div>
   );

@@ -10,7 +10,7 @@ module.exports = {
   // disqusShortname: 'siwalik-in',
   disqusShortname: '',
   postsPerPage: 10,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-132827431-1',
   useKatex: false,
   menu: [
     {
