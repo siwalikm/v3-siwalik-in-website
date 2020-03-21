@@ -6,9 +6,9 @@ socialImage: /media/flower.jpg
 title: The Myth of Building a Perfect Tech Blog
 date: 2020-03-21T16:16:00.000Z
 description: >-
-  After spending an eternity trying to figure out what tech stack to use and how
-  to design an extraordinary tech blog, I finally let go of all my anxiety and
-  decided to write this article about my journey behind building this blog.
+  After months of procrastination on building a "perfect" tech blog, I finally
+  let go of all my anxiety and decided to write this article about my learnings
+  behind building a blog.
 category: Reflections
 tags:
   - blog
@@ -17,8 +17,6 @@ tags:
 > After months of procrastination on building a "perfect" tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
 
 ![selective focus photo of a red tulip flower](/media/flower.jpg "Photo from Pexels.com by João Jesus")
-
-Phew!  I think a lot of weary blog builders like me might want to learn from my thought process behind building a blog.
 
 Since my very first interaction with a computer, blog posts have been everything to my learning. Along the way, I had published a few blog posts myself. I created and maintained a tech-blog back in the day when Blogspot was a thing. But despite all that experience, I was spoiled for choice when I saw down to build a blog for myself last year. I was completely lost.
 
