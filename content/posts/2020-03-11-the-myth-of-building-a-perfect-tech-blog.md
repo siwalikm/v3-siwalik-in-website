@@ -16,7 +16,7 @@ tags:
 ---
 > After months of procrastination on building a "perfect" tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
 
-![aerial photo of pine trees with one of them standing out](/media/photo-1531875909331-5c13fb705721.jpeg "Autumn loading - Photograph by @ralics on Unsplash")
+![aerial photo of pine trees with one of them standing out](/media/flower.jpg "Autumn loading - Photograph by @ralics on Unsplash")
 
 Phew!  I think a lot of weary blog builders like me might want to learn from my thought process behind building a blog.
 
