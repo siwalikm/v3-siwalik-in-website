@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  url: 'https://siwalik.website',
+  url: 'https://siwalik.in',
   pathPrefix: '/',
   title: 'Siwalik Mukherjee - Software Engineer and Designer',
   subtitle: 'Software Engineer and Designer',
