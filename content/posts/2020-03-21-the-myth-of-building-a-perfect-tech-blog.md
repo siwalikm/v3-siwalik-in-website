@@ -4,7 +4,7 @@ slug: myth-of-perfect-tech-blog
 draft: false
 socialImage: /media/flower.jpg
 title: The Myth of Building a Perfect Tech Blog
-date: '2020-03-21T16:15:49.040Z'
+date: 2020-03-21T16:16:00.000Z
 description: >-
   After spending an eternity trying to figure out what tech stack to use and how
   to design an extraordinary tech blog, I finally let go of all my anxiety and
