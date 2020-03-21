@@ -2,9 +2,9 @@
 template: post
 slug: myth-of-perfect-tech-blog
 draft: false
-socialImage: /media/UV5aY8N73dA.png
+socialImage: /media/flower.jpg
 title: The Myth of Building a Perfect Tech Blog
-date: '2020-03-23T16:15:49.040Z'
+date: '2020-03-21T16:15:49.040Z'
 description: >-
   After spending an eternity trying to figure out what tech stack to use and how
   to design an extraordinary tech blog, I finally let go of all my anxiety and
@@ -16,7 +16,7 @@ tags:
 ---
 > After months of procrastination on building a "perfect" tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
 
-![aerial photo of pine trees with one of them standing out](/media/flower.jpg "Autumn loading - Photograph by @ralics on Unsplash")
+![selective focus photo of a red tulip flower](/media/flower.jpg "Photo from Pexels.com by João Jesus")
 
 Phew!  I think a lot of weary blog builders like me might want to learn from my thought process behind building a blog.
 
