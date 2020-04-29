@@ -4,6 +4,7 @@ title: What the heck is JWT anyway?
 slug: what-the-heck-is-jwt-anyway
 draft: false
 date: 2018-03-03T20:08:55.149Z
+canonical: "https://dev.to/siwalikm/what-the-heck-is-jwt-anyway--47hg"
 description: >-
   In this article, we will learn the fundamentals of a JWT token is and how we
   can benefit from it for authenticating communications between two parties, all
@@ -13,6 +14,8 @@ tags:
   - auth
   - JavaScript
 ---
+Originally published in [dev.to](https://dev.to/siwalikm/what-the-heck-is-jwt-anyway--47hg) website.
+
 In this article we will learn the fundamentals of a JWT token is and how we can benefit from it for authenticating communications between two parties, all of this using vanilla NodeJS and javascript.
 
 > JWT is an abbreviation for JSON Web Token, which is a compact URL-safe means of representing claims to be transferred between two parties. The claims in a JWT are encoded as a JSON object that is digitally signed using JSON Web Signature (JWS). ~ IETF
