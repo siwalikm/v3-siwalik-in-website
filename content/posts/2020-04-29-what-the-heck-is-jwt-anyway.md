@@ -2,7 +2,7 @@
 template: post
 title: What the heck is JWT anyway?
 slug: what-the-heck-is-jwt-anyway
-draft: true
+draft: false
 date: 2018-03-03T20:08:55.149Z
 description: >-
   In this article, we will learn the fundamentals of a JWT token is and how we
