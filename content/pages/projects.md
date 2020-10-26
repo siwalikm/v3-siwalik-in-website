@@ -3,7 +3,17 @@ title: 'Projects'
 template: 'page'
 socialImage: "/media/siwalik_cover.jpg"
 ---
+
 <div class="project-container">
+
+  <h2 class="project-title">Google Chrome Theme</h2>
+  <span>🌈 A theme to restore chrome's original white look on dark mode enabled devices</span>
+  <div>
+    <a class="button" href="https://chrome.google.com/webstore/detail/chrome-original-white-the/enhonnecbfooacmkfjcfeegecnhjnkmm" target="_blank" rel="noopener noreferrer">
+      View
+    </a>
+  </div>
+
   <h2 class="project-title">Coffitivity Offline</h2>
   <span>☕️ A productivity music app which runs on your desktop, offline</span>
   <div>
