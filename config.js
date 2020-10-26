@@ -6,7 +6,7 @@ module.exports = {
   title: 'Siwalik Mukherjee - Software Engineer and Designer',
   subtitle: 'Software Engineer and Designer',
   // copyright: '© All rights reserved.',
-  copyright: '© 2020 Siwalik Mukherjee <br> This is Version 3 of my personal site. <a target="_blank" rel="noopener noreferrer" href="https://v2.siwalik.in/">V2</a> • <a href="https://v1.siwalik.in/" target="_blank" rel="noopener noreferrer">V1</a>',
+  copyright: '© 2020 Siwalik Mukherjee <br> This is V3 of my personal site. <a target="_blank" rel="noopener noreferrer" href="https://v2.siwalik.in/">V2</a> • <a href="https://v1.siwalik.in/" target="_blank" rel="noopener noreferrer">V1</a>',
   // disqusShortname: 'siwalik-in',
   disqusShortname: '',
   postsPerPage: 10,
