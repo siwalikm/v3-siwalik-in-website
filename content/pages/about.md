@@ -13,6 +13,9 @@ I'm Siwalik Mukherjee, a software engineer and designer from the 'City of Joy' K
 I'm also left-handed (<i>fun fact: only 5.2% in India</i>), I love drinking good coffee and like sharing about my experiences and learnings in software development and life.
 
 #### How I got here
+
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">[2007] maybe I can just edit this HTML myself...<br><br>*fast forward 14 years*<br><br>[2021] why am I sitting in a sprint planning, I just wanted to edit my blogger page</p>&mdash; Siwalik Mukherjee (@siwalikm) <a href="https://twitter.com/siwalikm/status/1423524236014981121?ref_src=twsrc%5Etfw">August 6, 2021</a></blockquote>
+
 <details>
 
 <summary>Long Version</summary>
