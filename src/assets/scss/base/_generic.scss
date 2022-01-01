@@ -8,16 +8,15 @@ html {
 body.dark-mode {
   -webkit-font-smoothing: antialiased;
   --color-base: white;
-  --color-highlight: #bc86fc;
+  --color-highlight: #f48fb1; //#bc86fc;
   --color-background: #1e1e1e;
   background-color: var(--color-background);
 }
 
 body {
   --color-base: #222;
-  --color-highlight: #6200ee;
+  --color-highlight: #d81b60; //#6200ee;
   --color-background: white;
-
   background-color: $color-white;
   margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
@@ -54,7 +53,7 @@ body {
     font-weight: 300;
   }
 
-  input[type='email'] {
+  input[type="email"] {
     outline: none;
     display: inline-block;
     width: 70%;
@@ -64,11 +63,11 @@ body {
     font-size: 1rem;
   }
 
-  input[type='email']:focus {
+  input[type="email"]:focus {
     border: 2px solid var(--color-base);
   }
 
-  input[type='submit'] {
+  input[type="submit"] {
     color: var(--color-background);
     background: var(--color-highlight);
     text-decoration: none;
@@ -84,16 +83,16 @@ body {
     flex-grow: 1;
   }
 
-  input[type='submit']:hover {
+  input[type="submit"]:hover {
     background-color: var(--color-base);
   }
 
   @media screen and (max-width: 736px) {
-    input[type='email'] {
+    input[type="email"] {
       display: block;
       width: 100%;
     }
-    input[type='submit'] {
+    input[type="submit"] {
       box-sizing: border-box;
       -webkit-box-sizing: border-box;
       -moz-box-sizing: border-box;
@@ -222,7 +221,7 @@ body {
     &:checked {
       + {
         .toggle {
-          background-color: #9383b0;
+          background-color: #ce8eb0; //#9383b0;
           .toggle__handler {
             background-color: #ffe5b5;
             transform: translate3d(40px, 0, 0) rotate(0);
@@ -448,5 +447,4 @@ figcaption {
       color: var(--color-highlight);
     }
   }
-
 }
