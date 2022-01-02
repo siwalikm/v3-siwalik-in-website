@@ -1,25 +1,41 @@
 // @flow strict
 import React from 'react';
+import moment from 'moment';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 import { useSiteMetadata } from '../../../hooks';
 
-const Author = () => {
+type Props = {
+  date: string,
+  postSlug: string,
+};
+
+const Author = ({ date, postSlug }: Props) => {
   const { author } = useSiteMetadata();
+  const postURL = `https://github.com/siwalikm/diary/blob/master/content${postSlug}.md`;
 
   return (
     <div className={styles['author']}>
       <p className={styles['author__bio']}>
-        Written by <strong>{author.name}</strong> who lives in India and loves
-        documenting his learning in this blog.&nbsp;
+        Published on {moment(date).format('MMM DD, YYYY')} by{' '}
         <a
-          className={styles['author__bio-twitter']}
+          // className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>Your should follow him on Twitter</strong>
+          <strong>{author.name}</strong>
         </a>
+        . You can{' '}
+        <a
+          // className={styles['author__bio-twitter']}
+          href={postURL}
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong>edit this page</strong>
+        </a>{' '}
+        here.
       </p>
     </div>
   );

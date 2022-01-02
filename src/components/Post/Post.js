@@ -6,7 +6,6 @@ import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
 import Copyright from '../Copyright';
-import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
@@ -38,7 +37,7 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__footer']}>
-        <Meta date={date} />
+        <Author date={date} postSlug={slug} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
 
         <div className="tinyLetter__container">
@@ -59,8 +58,6 @@ const Post = ({ post }: Props) => {
             <input type="submit" value="Subscribe" />
           </TinyLetter>
         </div>
-
-        <Author />
       </div>
 
       <div className={styles['post__comments']}>
