@@ -3,10 +3,17 @@
  */
 html {
   font-size: $typographic-root-font-size;
+  -webkit-font-smoothing: antialiased;
+}
+
+body.light-mode {
+  --color-base: #222;
+  --color-highlight: #6200ee;
+  --color-background: white;
+  background-color: $color-white;
 }
 
 body.dark-mode {
-  -webkit-font-smoothing: antialiased;
   --color-base: white;
   --color-highlight: #bc86fc;
   --color-background: #1e1e1e;
@@ -14,11 +21,6 @@ body.dark-mode {
 }
 
 body {
-  --color-base: #222;
-  --color-highlight: #6200ee;
-  --color-background: white;
-
-  background-color: $color-white;
   margin: 0 0 0 calc(100vw - 100%);
   font-family: $typographic-font-family;
   color: $typographic-base-font-color;
@@ -448,5 +450,4 @@ figcaption {
       color: var(--color-highlight);
     }
   }
-
 }

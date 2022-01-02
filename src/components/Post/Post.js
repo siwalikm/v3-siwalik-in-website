@@ -6,21 +6,25 @@ import Author from './Author';
 import Comments from './Comments';
 import Content from './Content';
 import Copyright from '../Copyright';
-import Meta from './Meta';
 import Tags from './Tags';
 import styles from './Post.module.scss';
 import type { Node } from '../../types';
 import { useSiteMetadata } from '../../hooks';
 
 type Props = {
-  post: Node
+  post: Node,
+};
+
+const emailDisclaimerStyle = {
+  fontSize: '.8rem',
+  color: 'var(--color-highlight)',
 };
 
 const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
-  const { copyright } = useSiteMetadata();
+  const { copyright, year } = useSiteMetadata();
 
   return (
     <div className={styles['post']}>
@@ -33,7 +37,7 @@ const Post = ({ post }: Props) => {
       </div>
 
       <div className={styles['post__footer']}>
-        <Meta date={date} />
+        <Author date={date} postSlug={slug} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
 
         <div className="tinyLetter__container">
@@ -42,16 +46,18 @@ const Post = ({ post }: Props) => {
             Subscribe to my Newsletter
           </h3>
           <p>
-            Every few weeks I write about tech, personal growth and other things
-            I wish I knew a year ago. No spams. Unsubscribe at <i>any</i> time.
+            Every few weeks<span style={emailDisclaimerStyle}>*</span> I write
+            about tech, personal growth and other things I wish I knew a year
+            ago. No spams. Unsubscribe at <i>any</i> time.
+            <div style={emailDisclaimerStyle}>
+              *well, its officially in my {year} goals to publish more, so 🤞
+            </div>
           </p>
           <TinyLetter list="siwalik">
             <input type="email" placeholder="Your Email Address" />
             <input type="submit" value="Subscribe" />
           </TinyLetter>
         </div>
-
-        <Author />
       </div>
 
       <div className={styles['post__comments']}>

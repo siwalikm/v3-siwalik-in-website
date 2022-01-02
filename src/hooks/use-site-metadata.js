@@ -12,13 +12,13 @@ const useSiteMetadata = () => {
               bio
               photo
               contacts {
+                twitter
+                github
+                linkedin
+                instagram
                 dribbble
                 facebook
-                linkedin
-                github
-                twitter
                 telegram
-                instagram
                 email
                 rss
                 vkontakte
@@ -38,11 +38,12 @@ const useSiteMetadata = () => {
             title
             subtitle
             copyright
+            year
             disqusShortname
           }
         }
       }
-    `
+    `,
   );
 
   return site.siteMetadata;
