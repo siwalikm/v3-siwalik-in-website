@@ -1,0 +1,52 @@
+.tinyletter {
+  width: auto;
+  padding: 1.25rem;
+  background: var(--color-background);
+  border-radius: 0.3125rem;
+  border: 2px solid var(--color-highlight);
+  margin: 30px 0;
+
+  &__title {
+    color: var(--color-base);
+    margin: 0 0 1.25rem;
+  }
+
+  form {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 16px 16px;
+  }
+
+  p {
+    font-weight: 300;
+  }
+
+  input[type='email'] {
+    outline: none;
+    padding: 0.5rem;
+    border: 2px solid var(--color-highlight);
+    border-radius: 0.3125rem;
+    font-size: 1rem;
+  }
+
+  input[type='email']:focus {
+    border: 2px solid var(--color-base);
+  }
+
+  input[type='submit'] {
+    color: var(--color-background);
+    background: var(--color-highlight);
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    -webkit-box-flex: 1;
+  }
+
+  input[type='submit']:hover {
+    background-color: var(--color-base);
+  }
+}

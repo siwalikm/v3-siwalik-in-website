@@ -6,8 +6,8 @@ type Props = {
   name: string,
   icon: {
     viewBox?: string,
-    path?: string
-  }
+    path?: string,
+  },
 };
 
 const Icon = ({ name, icon }: Props) => (
