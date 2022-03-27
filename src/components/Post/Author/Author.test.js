@@ -9,15 +9,15 @@ import type { RenderCallback } from '../../../types';
 describe('Author', () => {
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
-      ({ render }: RenderCallback) => (
-        render(siteMetadata)
-      ),
-      useStaticQuery.mockReturnValue(siteMetadata)
+      ({ render }: RenderCallback) => render(siteMetadata),
+      useStaticQuery.mockReturnValue(siteMetadata),
     );
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<Author />).toJSON();
+    const tree = renderer
+      .create(<Author date={new Date().toString()} postSlug="" />)
+      .toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

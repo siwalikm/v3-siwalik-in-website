@@ -13,19 +13,21 @@ type Props = {
 const Contacts = ({ contacts }: Props) => (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
-      {Object.keys(contacts).map((name) => (!contacts[name] ? null : (
-        <a
+      {Object.keys(contacts).map((name, key) =>
+        (!contacts[name] ? null : (
+          <a
             className={styles['contacts__list-item-link']}
             href={getContactHref(name, contacts[name])}
             rel="noopener noreferrer"
             target="_blank"
             title={name}
+            key={key}
           >
-        <li className={styles['contacts__list-item']} key={name}>
-            <Icon name={name} icon={getIcon(name)} />
-        </li>
+            <li className={styles['contacts__list-item']} key={name}>
+              <Icon name={name} icon={getIcon(name)} />
+            </li>
           </a>
-      )))}
+        )),)}
     </ul>
   </div>
 );

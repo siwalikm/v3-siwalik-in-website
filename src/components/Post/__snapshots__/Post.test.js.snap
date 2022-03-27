@@ -35,13 +35,37 @@ exports[`Post renders correctly 1`] = `
     className="post__footer"
   >
     <div
-      className="meta"
+      className="author"
     >
       <p
-        className="meta__date"
+        className="author__bio"
       >
         Published 
-        1 Sep 2016
+        on Sep 1, 2016
+         by
+         
+        <a
+          href="https://www.twitter.com/#"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong>
+            Test name
+          </strong>
+        </a>
+        . You can
+         
+        <a
+          href="https://github.com/siwalikm/diary/blob/master/content/test.md"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <strong>
+            edit this page
+          </strong>
+        </a>
+         
+        here.
       </p>
     </div>
     <div
@@ -73,28 +97,57 @@ exports[`Post renders correctly 1`] = `
       </ul>
     </div>
     <div
-      className="author"
+      className="tinyletter"
     >
-      <p
-        className="author__bio"
+      <h3
+        className="tinyletter__title"
       >
-        Test bio
-        <a
-          className="author__bio-twitter"
-          href="https://www.twitter.com/#"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <strong>
-            Test name
-          </strong>
-           on Twitter
-        </a>
+         Subscribe to my Newsletter
+      </h3>
+      <p>
+        Every two weeks I write about tech, personal growth and other things I wish I knew a year ago.No spams. Unsubscribe at 
+        <i>
+          any
+        </i>
+         time.
       </p>
+      <form
+        action="https://tinyletter.com/siwalik"
+        className="tinyletter__input"
+        list="siwalik"
+        method="post"
+        onSubmit={[Function]}
+        target="popupwindow"
+      >
+        <input
+          name="embed"
+          type="hidden"
+          value="1"
+        />
+        <input
+          name="email"
+          placeholder="eg. richard@piedpiper.com"
+          required={true}
+          type="email"
+        />
+        <input
+          type="submit"
+          value="Subscribe"
+        />
+      </form>
     </div>
   </div>
   <div
     className="post__comments"
-  />
+  >
+    <div
+      className="copyright"
+      dangerouslySetInnerHTML={
+        Object {
+          "__html": "Test copyright",
+        }
+      }
+    />
+  </div>
 </div>
 `;

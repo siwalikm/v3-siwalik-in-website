@@ -7,9 +7,11 @@ exports[`Author renders correctly 1`] = `
   <p
     className="author__bio"
   >
-    Test bio
+    Published 
+    on Mar 27, 2022
+     by
+     
     <a
-      className="author__bio-twitter"
       href="https://www.twitter.com/#"
       rel="noopener noreferrer"
       target="_blank"
@@ -17,8 +19,20 @@ exports[`Author renders correctly 1`] = `
       <strong>
         Test name
       </strong>
-       on Twitter
     </a>
+    . You can
+     
+    <a
+      href="https://github.com/siwalikm/diary/blob/master/content.md"
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <strong>
+        edit this page
+      </strong>
+    </a>
+     
+    here.
   </p>
 </div>
 `;

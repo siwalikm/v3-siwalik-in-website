@@ -1,6 +1,5 @@
 // @flow strict
 import React from 'react';
-import moment from 'moment';
 import { getContactHref } from '../../../utils';
 import styles from './Author.module.scss';
 import { useSiteMetadata } from '../../../hooks';
@@ -13,11 +12,17 @@ type Props = {
 const Author = ({ date, postSlug }: Props) => {
   const { author } = useSiteMetadata();
   const postURL = `https://github.com/siwalikm/diary/blob/master/content${postSlug}.md`;
+  const formattedDate = new Date(date).toLocaleDateString('en-US', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+  });
+  const dateString = formattedDate ? `on ${formattedDate}` : '';
 
   return (
     <div className={styles['author']}>
       <p className={styles['author__bio']}>
-        Published on {moment(date).format('MMM DD, YYYY')} by{' '}
+        Published {dateString} by{' '}
         <a
           // className={styles['author__bio-twitter']}
           href={getContactHref('twitter', author.contacts.twitter)}

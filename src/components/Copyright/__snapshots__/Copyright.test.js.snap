@@ -3,7 +3,10 @@
 exports[`Copyright renders correctly 1`] = `
 <div
   className="copyright"
->
-  copyright
-</div>
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": "copyright",
+    }
+  }
+/>
 `;
