@@ -13,4 +13,3 @@ describe('Copyright', () => {
     expect(tree).toMatchSnapshot();
   });
 });
-// dummy commit
