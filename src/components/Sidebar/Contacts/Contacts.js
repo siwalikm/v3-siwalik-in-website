@@ -14,7 +14,7 @@ const Contacts = ({ contacts }: Props) => (
   <div className={styles['contacts']}>
     <ul className={styles['contacts__list']}>
       {Object.keys(contacts).map((name, key) =>
-        !contacts[name] ? null : (
+        (!contacts[name] ? null : (
           <a
             className={styles['contacts__list-item-link']}
             href={getContactHref(name, contacts[name])}
@@ -27,8 +27,7 @@ const Contacts = ({ contacts }: Props) => (
               <Icon name={name} icon={getIcon(name)} />
             </li>
           </a>
-        ),
-      )}
+        )),)}
     </ul>
   </div>
 );

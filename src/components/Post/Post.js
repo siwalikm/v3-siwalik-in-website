@@ -19,7 +19,7 @@ const Post = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
-  const { copyright, year } = useSiteMetadata();
+  const { copyright } = useSiteMetadata();
 
   return (
     <div className={styles['post']}>
@@ -35,7 +35,7 @@ const Post = ({ post }: Props) => {
         <Author date={date} postSlug={slug} />
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
 
-        <NewsletterContainer year={year} />
+        <NewsletterContainer />
       </div>
 
       <div className={styles['post__comments']}>

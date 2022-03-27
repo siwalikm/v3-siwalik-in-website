@@ -2,7 +2,7 @@ import React from 'react';
 import { TinyLetter } from 'react-tinyletter';
 import styles from './newsletter.module.scss';
 
-const NewsletterContainer = ({ year }) => (
+const NewsletterContainer = () => (
   <div className={`${styles['tinyletter']}`}>
     <h3 className={styles['tinyletter__title']}> Subscribe to my Newsletter</h3>
     <p>
