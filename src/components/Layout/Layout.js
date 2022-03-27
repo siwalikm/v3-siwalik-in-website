@@ -1,7 +1,6 @@
 // @flow strict
 import React from 'react';
 import Helmet from 'react-helmet';
-import { withPrefix } from 'gatsby';
 import type { Node as ReactNode } from 'react';
 import DarkModeToggle from '../../themeChanger/DarkModeToggle';
 
@@ -12,15 +11,13 @@ type Props = {
   children: ReactNode,
   title: string,
   description?: string,
-  socialImage?: string
+  socialImage?: string,
 };
 
-const Layout = ({
-  children, title, description, socialImage
-}: Props) => {
+const Layout = ({ children, title, description, socialImage = '' }: Props) => {
   const { author, url } = useSiteMetadata();
-  const metaImage = socialImage != null ? socialImage : author.photo;
-  const metaImageUrl = url + withPrefix(metaImage);
+  const metaImage = socialImage || author.photo;
+  const metaImageUrl = url + metaImage;
 
   return (
     <div className={styles.layout}>

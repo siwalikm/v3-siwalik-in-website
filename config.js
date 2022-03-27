@@ -51,6 +51,7 @@ module.exports = {
       codepen: '',
       youtube: '',
       soundcloud: '',
-    },
-  },
+      medium: '',
+    }
+  }
 };
