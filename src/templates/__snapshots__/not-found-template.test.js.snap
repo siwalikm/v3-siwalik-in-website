@@ -284,10 +284,10 @@ exports[`NotFoundTemplate renders correctly 1`] = `
         <h3
           className="tinyletter__title"
         >
-           Subscribe to my Newsletter
+           Subscribe to my Monthly Letters
         </h3>
         <p>
-          Every two weeks I write about tech, personal growth and other things I wish I knew a year ago.No spams. Unsubscribe at 
+          Every month I write about tech, personal growth and other things I wish I knew a year ago. No spams. Unsubscribe at 
           <i>
             any
           </i>
@@ -308,7 +308,7 @@ exports[`NotFoundTemplate renders correctly 1`] = `
           />
           <input
             name="email"
-            placeholder="eg. richard@piedpiper.com"
+            placeholder="eg. jane@gmail.com"
             required={true}
             type="email"
           />
