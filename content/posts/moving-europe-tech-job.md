@@ -1,12 +1,13 @@
 ---
 template: post
-slug: moving-europe-tech-job
-draft: true
-socialImage: /media/europe-tech-job-berlin.jpeg
 title: I moved to Europe for a tech job, mid pandemic
+slug: moving-europe-tech-job
+socialImage: /media/europe-tech-job-berlin.jpeg
+draft: false
 date: 2022-08-25T20:08:55.149Z
-description: >-
-  Does it make sense to leave a stable job with good pay, friends and families and an almost perfect life to start everything afresh from complete zero in a foreign land?
+description: Does it make sense to leave a stable job with good pay, friends and
+  families and an almost perfect life to start everything afresh from complete
+  zero in a foreign land?
 category: Musings
 ---
 
