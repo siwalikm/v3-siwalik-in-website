@@ -2,7 +2,7 @@
 template: post
 slug: moving-europe-tech-job
 draft: true
-socialImage: /media/europe-tech-job-berlin.jpeg
+socialImage: /media/europe-tech-job-berlin.jpg
 title: I moved to Europe for a tech job, mid pandemic
 date: 2022-08-25T20:08:55.149Z
 description: >-
@@ -12,7 +12,7 @@ category: Musings
 
 I moved from India to Europe around one year back for a new job. In this post, I will share my experiences with relocating to a new country and why it might be the best thing you can do for yourself and your career.
 
-![photo of blush pink cherry blossom tree](/media/europe-tech-job-berlin.jpeg 'Photo by @_entreprenerd on Unsplash')
+![photo of blush pink cherry blossom tree](/media/europe-tech-job-berlin.jpg 'Photo by @_entreprenerd on Unsplash')
 
 ## Some background before we dive into the deeps
 
