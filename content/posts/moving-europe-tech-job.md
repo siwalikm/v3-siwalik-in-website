@@ -97,4 +97,4 @@ Last but not the least, I feel very fortunate and grateful to be able to connect
 
 ---
 
-Would you like to read something more tech-focused on my preparations and move to Europe? Let me know on Twitter.
+Would you like to read something more tech-focused on my preparations and move to Europe? <a href="https://www.twitter.com/siwalikm" rel="noopener noreferrer" target="_blank"><strong>Let me know on Twitter</strong></a>.
