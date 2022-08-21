@@ -9,14 +9,12 @@ description: >-
   After months of procrastination on building a "perfect" tech blog, I finally
   let go of all my anxiety and decided to write this article about my learnings
   behind building a blog.
-category: Reflections
-tags:
-  - blog
-  - musings
+category: Musings
 ---
+
 > After months of procrastination on building a "perfect" tech blog, I finally let go of all my anxiety and decided to write this article about my learnings behind building a blog.
 
-![selective focus photo of a red tulip flower](/media/flower.jpg "Photo from Pexels.com by João Jesus")
+![selective focus photo of a red tulip flower](/media/flower.jpg 'Photo from Pexels.com by João Jesus')
 
 Since my very first interaction with a computer, blog posts have been everything to my learning. Along the way, I had published a few blog posts myself. I created and maintained a tech-blog back in the day when Blogspot was a thing. But despite all that experience, I was spoiled for choice when I saw down to build a blog for myself last year. I was completely lost.
 
@@ -26,9 +24,9 @@ I grew up looking at incredible and often unbelievable web-designs on awwwards.c
 
 I knew I wanted to build something outstanding—something that would make my readers go “wow”. In all honesty, I want to show off my tech skills as someone who has been a frontend engineer for quite some time . Duh! So I went to my journal and started figuring out my secret herbs and spices.
 
-![photo of a todo checklist](/media/things-to-do-siwalik.jpg "A checklist from my journal")
+![photo of a todo checklist](/media/things-to-do-siwalik.jpg 'A checklist from my journal')
 
-A few months later, I had a blog that was still no way near completion. To top that, now and then I would see something beautiful online and come back to my drawing board and re-iterate on my blog in terms of tech and UI, thanks to my monkey mind. Clearly, I didn’t know what to prioritise  and soon enough I started procrastinating and pushing this project for later.
+A few months later, I had a blog that was still no way near completion. To top that, now and then I would see something beautiful online and come back to my drawing board and re-iterate on my blog in terms of tech and UI, thanks to my monkey mind. Clearly, I didn’t know what to prioritise and soon enough I started procrastinating and pushing this project for later.
 
 ## Finding the Purpose
 

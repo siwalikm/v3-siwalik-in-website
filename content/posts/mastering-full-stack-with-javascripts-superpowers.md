@@ -4,27 +4,26 @@ title: Mastering the Full-stack with JS Superpowers
 slug: mastering-full-stack-with-javascripts-superpowers
 draft: false
 date: 2018-03-18T20:08:55.149Z
-canonical: "https://dev.to/siwalikm/mastering-full-stack-with-javascripts-superpowers-oin"
+canonical: 'https://dev.to/siwalikm/mastering-full-stack-with-javascripts-superpowers-oin'
 socialImage: /media/js-superpower.jpg
 description: >-
   A frontend developer's guide to full stack web development. Sharing a learning checklist I came up with and plan to follow over the next couple months.
 category: Programming
-tags:
-  - JavaScript
 ---
+
 Originally published in [dev.to](https://dev.to/siwalikm/mastering-full-stack-with-javascripts-superpowers-oin/) website.
 
-![pixel art superhero](/media/js-superpower.jpg "pixel art superhero hero image")
+![pixel art superhero](/media/js-superpower.jpg 'pixel art superhero hero image')
 
-When I used to freelance as a full stack developer during my college, often I would find myself stuck between context switching in terms of practices and different syntaxes in javascript and php. Although I was making some good side cash and had a bunch of happy clients, the code I was writing was not great as it seemed tough to expertise on every aspect of web development at the same time. 
+When I used to freelance as a full stack developer during my college, often I would find myself stuck between context switching in terms of practices and different syntaxes in javascript and php. Although I was making some good side cash and had a bunch of happy clients, the code I was writing was not great as it seemed tough to expertise on every aspect of web development at the same time.
 
-Being a hardcore JS fan  and ardent lover of interfaces, I decided to focus solely on frontend and after freelancing for a few more months, I join a startup as a frontend developer. I was content with my learnings and adventures in the frontend land... until I came across this yesterday ~
+Being a hardcore JS fan and ardent lover of interfaces, I decided to focus solely on frontend and after freelancing for a few more months, I join a startup as a frontend developer. I was content with my learnings and adventures in the frontend land... until I came across this yesterday ~
 
 > The roles required to design and develop a web solution require a deep
-> skill set and vast experience in the area of visual design, UI/interaction design,  [front-end development](https://github.com/kamranahmedse/developer-roadmap#-front-end-roadmap) and  [back-end development](https://github.com/kamranahmedse/developer-roadmap#-back-end-roadmap).
+> skill set and vast experience in the area of visual design, UI/interaction design, [front-end development](https://github.com/kamranahmedse/developer-roadmap#-front-end-roadmap) and [back-end development](https://github.com/kamranahmedse/developer-roadmap#-back-end-roadmap).
 > Any person who can fill one or more of these 4 roles at a professional
 > level is an extremely rare commodity.
-> 
+>
 > However, given that JavaScript has infiltrated all layers of a
 > technology stack (e.g. React, node.js, express, couchDB, gulp.js
 > etc...) finding a full-stack JS developer who can code the front-end
@@ -40,7 +39,7 @@ I spent the next day researching on topics and resources one needs to learn in c
 
 ![Screenshot from notes app](https://i.imgur.com/YgBfkWW.png)
 
-If you're a front-end developer looking forward to *up your game* or maybe you're already a full-stack developer and want to brush up your skills for an interview or for your next side project, I'm certain, this will be helpful to you.
+If you're a front-end developer looking forward to _up your game_ or maybe you're already a full-stack developer and want to brush up your skills for an interview or for your next side project, I'm certain, this will be helpful to you.
 
 I posted the list on Github which you can [check it out here](https://github.com/siwalikm/Prep-for-Full-Stack-JS).
 
@@ -49,8 +48,9 @@ In order to stay motivated and track your progress, fork my todo list from Githu
 ```bash
 git clone https://github.com/siwalikm/Prep-for-Full-Stack-JS.git
 ```
+
 **P.S. Remember: The key is to stay motivated.**
 
-If possible, start learning along with a friend and maybe build something together along the process. If you're learning alone, reach out to people if you get stuck and try to document your learnings. 
+If possible, start learning along with a friend and maybe build something together along the process. If you're learning alone, reach out to people if you get stuck and try to document your learnings.
 
 Share this post with your friends if you think they'll find it helpful. Cheers.

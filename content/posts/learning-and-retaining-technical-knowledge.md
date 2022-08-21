@@ -9,15 +9,14 @@ description: >-
   Ever spent hours learning some technical concepts only to completely forget
   them later? Here's my framework on technical learning and retention to beat
   our non-persistent memory.
-category: Reflections
-tags:
-  - learning
+category: Musings
 ---
+
 I think you'll agree that studying takes a lot of time and effort. And the last thing you want to happen is to forget what you studied after a while, especially if the contents weren't just a fantasy novel but some technical topics you've studied perhaps for an upcoming interview or improving your skills.
 
 Over the past few years, I've experimented with a bunch of study techniques and in this post, I talk about everything that worked great for me. I've tried to condense all of my learnings into some techniques below, hope you find this useful.
 
-![sA garden like arrangement of beautiful glowing soft corals in a dark tank at the Cairns Aquarium.](/media/brain-coral.jpg "Photo of brain like coral from unsplash.com by @davidclode")
+![A garden like arrangement of beautiful glowing soft corals in a dark tank at the Cairns Aquarium.](/media/brain-coral.jpg 'Photo of brain like coral from unsplash.com by @davidclode')
 
 ### Find your Why
 
@@ -40,7 +39,7 @@ Spaced repetition is an evidence-backed study technique that uses a 'spacing eff
 
 The most popular way to practice spaced repetition is with flashcards. There are many systems to use flashcards effectively but my favourite one and the most efficient way of using flashcards is using the Leitner System.
 
-![Hero image showing callback hell](/media/flash-cards.jpg "Hero image showing callback hell")
+![Hero image showing callback hell](/media/flash-cards.jpg 'Hero image showing callback hell')
 
 Here's how it works - you create 5 boxes where each box corresponds to a time delay after which it shall be revisited. All your flashcards start at box one. After the box's given time interval elapses, each card you recollect correctly goes to the next box and so on.
 

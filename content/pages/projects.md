@@ -1,7 +1,7 @@
 ---
 title: 'Projects'
 template: 'page'
-socialImage: "/media/siwalik_cover.jpg"
+socialImage: '/media/siwalik_cover_2.jpg'
 ---
 
 <div class="project-container">
@@ -43,6 +43,5 @@ socialImage: "/media/siwalik_cover.jpg"
       View
     </a>
   </div>
-
 
 </div>

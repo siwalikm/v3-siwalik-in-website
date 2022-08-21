@@ -1,12 +1,12 @@
 ---
-title: "About me"
-template: "page"
-socialImage: "/media/siwalik_cover.jpg"
+title: 'About me'
+template: 'page'
+socialImage: '/media/siwalik_cover_2.jpg'
 ---
 
 #### Hi Internet Explorers!
 
-![Author's photo with hills and clouds in the background.](/media/siwalik_cover.jpg)
+![Author's photo with hills and clouds in the background.](/media/siwalik_cover_2.jpg)
 
 I'm Siwalik, a software engineer and designer from the 'City of Joy' Kolkata 🇮🇳, currently living in Berlin 🇩🇪.
 
@@ -26,13 +26,11 @@ Soon, I graduated to creating and maintaining an online blog called Techtreck Ma
 
 I’m incredibly fortunate to have mingled with peers who motivated me a lot in college to grow. They shared the same values as I did for learning. This was a period when I taught myself to design and code and got my first break as a web developer. Little did I know that my first gig set the stage for my career.
 
-<i>It's a huge opportunity to love doing something and also have an entire booming industry to support your passion and financial needs. Isn't it?</i> 
+<i>It's a huge opportunity to love doing something and also have an entire booming industry to support your passion and financial needs. Isn't it?</i>
 
 College was disappointing for the first two years with ancient syllabus being taught which didn't motivate to create but only replicate. So I started focussing on things that didn't suck. The last two years in college, I freelanced a lot for small businesses and wrote articles on various websites about the little things I learnt. <i>By the way, did I tell you that one of my answers on <a target="blank" rel="noreferrer" href="https://qr.ae/TUvKfR">Quora</a> got me my first full-time job in one of India's biggest unicorn startups (Freshworks)?</i>
 
 </details>
-
-
 
 #### What now
 

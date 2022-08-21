@@ -4,7 +4,7 @@ title: What the heck is JWT anyway?
 slug: what-the-heck-is-jwt-anyway
 draft: false
 date: 2018-03-03T20:08:55.149Z
-canonical: "https://dev.to/siwalikm/what-the-heck-is-jwt-anyway--47hg"
+canonical: 'https://dev.to/siwalikm/what-the-heck-is-jwt-anyway--47hg'
 description: >-
   In this article, we will learn the fundamentals of a JWT token is and how we
   can benefit from it for authenticating communications between two parties, all
@@ -12,8 +12,8 @@ description: >-
 category: Programming
 tags:
   - auth
-  - JavaScript
 ---
+
 Originally published in [dev.to](https://dev.to/siwalikm/what-the-heck-is-jwt-anyway--47hg) website.
 
 In this article we will learn the fundamentals of a JWT token is and how we can benefit from it for authenticating communications between two parties, all of this using vanilla NodeJS and javascript.
@@ -26,12 +26,12 @@ Simply put, JWT token is a string we pass in the header or url while making a ne
 
 Example: www.example.com/private/?token=xxxxx.yyyyy.zzzzz
 
-
-You might be wondering what's with the token format! JWT tokens consists of three parts separated by dots ```( . )``` which are:
+You might be wondering what's with the token format! JWT tokens consists of three parts separated by dots `( . )` which are:
 
 ```
 header.payload.signature
 ```
+
 Let's see the differents parts of a JWT token in details.
 
 **1. Header**
@@ -49,7 +49,7 @@ Then, this JSON is Base64Url encoded to form the first part of the JWT.
 ```javascript
 'use strict';
 
-var header = { "alg": "HS256", "typ": "JWT" };
+var header = { alg: 'HS256', typ: 'JWT' };
 var enc_header = Buffer.from(JSON.stringify(header)).toString('base64');
 // ► "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9"
 ```
@@ -76,7 +76,7 @@ The payload is then Base64Url encoded to form the second part of the JSON Web To
 ```javascript
 'use strict';
 
-var payload = { "exp": "2019-02-14", "message": "roses are red" };
+var payload = { exp: '2019-02-14', message: 'roses are red' };
 var enc_payload = Buffer.from(JSON.stringify(payload)).toString('base64');
 // ► eyJleHAiOiIyMDE5LTAyLTE0IiwibmFtZSI6IkpvaG4gRG9lIn0
 ```
@@ -88,9 +88,12 @@ To create the signature part you have to take the encoded header, the encoded pa
 ```javascript
 'use strict';
 const crypto = require('crypto');
-var jwt_secret = "secret";
+var jwt_secret = 'secret';
 // enc_header and enc_payload are computed earlier
-var signature = crypto.createHmac('sha256', jwt_secret).update(enc_header +"."+ enc_payload).digest('base64');
+var signature = crypto
+  .createHmac('sha256', jwt_secret)
+  .update(enc_header + '.' + enc_payload)
+  .digest('base64');
 // ► 6C46KAaZGp6RjbSqGllfdQF7g8vXCp02NTSrz-PzeoI
 ```
 
@@ -103,10 +106,10 @@ var token = `${enc_header}.${enc_payload}.${signature}`;
 // ► eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOiIyMDE5LTAyLTE0IiwibWVzc2FnZSI6InJvc2VzIGFyZSByZWQifQ.0u-mkgLo5479CPjJJ4mXCwn2RW4dFT12fiYiopRWsZw
 ```
 
-Something important to remember here is that JWT tokens are used for authentication and not encryption, so even without knowing the secret key, someone can read your header and payload data. 
+Something important to remember here is that JWT tokens are used for authentication and not encryption, so even without knowing the secret key, someone can read your header and payload data.
 
 But upon receiving the token you can sign the header and payload again with your secret key and compare it with the received signature to detect tampering of token or the message.
 
-A good place to start will be by going to this [online JWT debugger at jwt.io](https://jwt.io/#debugger) and play around with the the token we just generated above. 
+A good place to start will be by going to this [online JWT debugger at jwt.io](https://jwt.io/#debugger) and play around with the the token we just generated above.
 
 Hi! I'm [@Siwalik](https://twitter.com/intent/follow?user_id=4708084272)! If you liked this article, follow me on twitter to know about my latest tech expeditions and side projects! 🙌
