@@ -63,11 +63,11 @@ It has been a roller coaster ride so far, but luckily, there are more ups than d
 
 Most European countries are very particular about work-life balance, which means you're done with your 8 hours of work by 5 pm and have the rest of the evening to yourself. That leaves you with ample time for yourself to be with friends, indulge in hobbies or maybe sit in the park and look at the river.
 
-### Self nurturing and travel
+### Quality me-time
 
 I'll be honest, this experience has been like fresh air to me. Having enough time for myself let me be in better mental space and health. In the past months, I took a long break from social media and spent more times outdoors. Germany has beautiful parks, lakes and hiking trails where I'll often spend my lazy weekends. In other days, I would explore the city, or try out some cafes.
 
-Inside my tiny studio, I started learning how to grow plants for once and not kill them. I also created a Twitch channel where I would stream live coding sessions from time to time for fun. Also I could travel to two new countries, Lithuania and Hungary for very cheap.
+Inside my tiny studio, I started learning how to grow plants and not kill them for once. I also started a Twitch channel where I stream live coding sessions from time to time for fun. Also in this short span I travelled to two new countries, Hungary and Lithuania, with my budget savings.
 
 Just in the last 12 months I realised I had read more books, walked more steps and played more hours of guitar than maybe the last decade, back home.
 
