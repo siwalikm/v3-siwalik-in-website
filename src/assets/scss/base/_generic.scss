@@ -8,14 +8,14 @@ html {
 
 body.light-mode {
   --color-base: #222;
-  --color-highlight: #6200ee;
+  --color-highlight: #e2177b;
   --color-background: white;
   background-color: $color-white;
 }
 
 body.dark-mode {
   --color-base: white;
-  --color-highlight: #bc86fc;
+  --color-highlight: #ffadd5;
   --color-background: #1e1e1e;
   background-color: var(--color-background);
 }
@@ -152,7 +152,7 @@ body {
     &:checked {
       + {
         .toggle {
-          background-color: #9383b0;
+          background-color: #575757;
           .toggle__handler {
             background-color: #ffe5b5;
             transform: translate3d(40px, 0, 0) rotate(0);
