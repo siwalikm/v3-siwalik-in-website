@@ -4,7 +4,7 @@ title: I moved to Europe for a tech job, mid pandemic
 slug: moving-europe-tech-job
 draft: false
 socialImage: /media/europe-tech-job-berlin.jpg
-date: 2022-08-25T20:08:55.149Z
+date: 2022-08-22T20:08:55.149Z
 description: Does it make sense to leave a stable job with good pay, friends and
   families and an almost perfect life to start everything afresh from complete
   zero in a foreign land?
@@ -67,9 +67,10 @@ Most European countries are very particular about work-life balance, which means
 
 I'll be honest, this experience has been like fresh air to me. Having enough time for myself let me be in better mental space and health. In the past months, I took a long break from social media and spent more times outdoors. Germany has beautiful parks, lakes and hiking trails where I'll often spend my lazy weekends. In other days, I would explore the city, or try out some cafes.
 
-Inside my tiny studio, I started learning how to grow plants and not kill them for once. I also started a Twitch channel where I stream live coding sessions from time to time for fun. Also in this short span I travelled to two new countries, Hungary and Lithuania, with my budget savings.
+Inside my tiny studio, I started learning how to grow plants and not kill them for once. I also started a Twitch channel where I stream live coding sessions from time to time for fun. Also in this short span I visited two wonderful countries, Hungary and Lithuania.
 
 Just in the last 12 months I realised I had read more books, walked more steps and played more hours of guitar than maybe the last decade, back home.
+> Plug: You can follow my travel journey and highlight photos on my <a href="https://www.instagram.com/siwalikm/" rel="noopener noreferrer" target="_blank"><strong>Instagram</strong></a> or <a href="https://unsplash.com/@siwalikm" rel="noopener noreferrer" target="_blank"><strong>Unsplash</strong></a> account. 😉
 
 ## Take it easy - everything isn't rosy
 
@@ -93,7 +94,7 @@ I'm looking at you, people of Twitter with hot takes like "don't go to college f
 
 Moreover, all the exposures I had from the previous high-pressure jobs I've complained about above gave me a lot of learning (and maybe reasons) which helped me prepare for this move.
 
-Last but not the least, I feel very fortunate and grateful to be able to connect all the dots in my life so far, to travel half way around the world and live the kind of life I could only dream of a year back.
+Last but not the least, I feel very fortunate and grateful to be able to connect all the dots in my life so far, to travel half way around the world and live the kind of life I could only dream of a year back. ✨
 
 ---
 
