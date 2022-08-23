@@ -21,7 +21,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-page-progress',
       options: {
-        includePaths: ['/', { regex: '^/posts' }],
+        includePaths: [{ regex: '^/posts' }],
         height: 15,
         prependToBody: false,
         color: 'var(--color-highlight)',
