@@ -19,6 +19,17 @@ module.exports = {
     'gatsby-plugin-twitter',
     'gatsby-plugin-use-dark-mode',
     {
+      resolve: 'gatsby-plugin-page-progress',
+      options: {
+        includePaths: ['/', { regex: '^/posts' }],
+        height: 15,
+        prependToBody: false,
+        color: 'var(--color-highlight)',
+        footerHeight: 500,
+        headerHeight: 0,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         path: `${__dirname}/static`,
