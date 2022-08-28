@@ -4,10 +4,10 @@ import styles from './newsletter.module.scss';
 
 const NewsletterContainer = () => (
   <div className={`${styles['tinyletter']}`}>
-    <h3 className={styles['tinyletter__title']}> Subscribe to my Monthly Letters</h3>
+    <h3 className={styles['tinyletter__title']}>Subscribe to Newsletter</h3>
     <p>
-      Every month I write about tech, personal growth and other things I
-      wish I knew a year ago. No spams. Unsubscribe at <i>any</i> time.
+      Sign up to get an email whenever I write a post. No spams. Unsubscribe at{' '}
+      <b>any</b> time.
     </p>
     <TinyLetter list="siwalik" className={styles['tinyletter__input']}>
       <input type="email" placeholder="eg. jane@gmail.com" />

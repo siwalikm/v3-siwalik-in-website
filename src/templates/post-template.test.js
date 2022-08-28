@@ -10,16 +10,18 @@ import type { RenderCallback } from '../types';
 describe('PostTemplate', () => {
   const props = {
     data: {
-      ...markdownRemark
-    }
+      ...markdownRemark,
+    },
+    pageContext: {
+      prevPost: null,
+      nextPost: null,
+    },
   };
 
   beforeEach(() => {
     StaticQuery.mockImplementationOnce(
-      ({ render }: RenderCallback) => (
-        render(siteMetadata)
-      ),
-      useStaticQuery.mockReturnValue(siteMetadata)
+      ({ render }: RenderCallback) => render(siteMetadata),
+      useStaticQuery.mockReturnValue(siteMetadata),
     );
   });
 
