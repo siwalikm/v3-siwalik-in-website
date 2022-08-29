@@ -151,18 +151,28 @@ exports[`PostTemplate renders correctly 1`] = `
         </ul>
       </div>
       <div
+        className="navLink"
+      >
+        <h4
+          className="navLink__mobile-title"
+        >
+          Other recent posts
+        </h4>
+      </div>
+      <div
         className="tinyletter"
       >
         <h3
           className="tinyletter__title"
         >
-           Subscribe to my Monthly Letters
+          Subscribe to Newsletter
         </h3>
         <p>
-          Every month I write about tech, personal growth and other things I wish I knew a year ago. No spams. Unsubscribe at 
-          <i>
+          Sign up to get an email whenever I write a post. No spams. Unsubscribe at
+           
+          <b>
             any
-          </i>
+          </b>
            time.
         </p>
         <form

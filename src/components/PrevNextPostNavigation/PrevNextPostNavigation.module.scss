@@ -1,0 +1,80 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.navLink {
+  &__mobile-title {
+    display: none;
+  }
+
+  &__prev {
+    left: -120px;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+  }
+
+  &__next {
+    right: -120px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+  }
+
+  &__prev:before,
+  &__next:before {
+    content: '▲';
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 24px;
+    left: 50%;
+    margin-left: -12px;
+    position: absolute;
+    top: 25px;
+    width: 24px;
+    color: var(--color-highlight);
+  }
+
+  &__prev,
+  &__next {
+    display: block;
+    font-size: 1.2em;
+    overflow: hidden;
+    padding: 48px;
+    position: fixed;
+    text-align: center;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    top: 45%;
+    width: 250px;
+    white-space: nowrap;
+    z-index: 2;
+  }
+}
+
+@include breakpoint-smaller-than-md {
+  .navLink {
+    &__mobile-title {
+      display: block;
+    }
+
+    &__prev,
+    &__next {
+      position: initial;
+      transform: none;
+      padding: initial;
+      overflow: initial;
+      font-size: initial;
+    }
+
+    &__prev:before,
+    &__next:before {
+      display: none;
+    }
+  }
+}

@@ -7,19 +7,22 @@ import Content from './Content';
 import Copyright from '../Copyright';
 import Tags from './Tags';
 import styles from './Post.module.scss';
-import type { Node } from '../../types';
+import type { Node, PageContext } from '../../types';
 import { useSiteMetadata } from '../../hooks';
 import NewsletterContainer from '../Newsletter';
+import PrevNextPostNavigation from '../PrevNextPostNavigation';
 
 type Props = {
   post: Node,
+  pageContext: PageContext,
 };
 
-const Post = ({ post }: Props) => {
+const Post = ({ post, pageContext }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
   const { tags, title, date } = post.frontmatter;
   const { copyright } = useSiteMetadata();
+  const { nextPost, prevPost } = pageContext;
 
   return (
     <div className={styles['post']}>
@@ -33,7 +36,10 @@ const Post = ({ post }: Props) => {
 
       <div className={styles['post__footer']}>
         <Author date={date} postSlug={slug} />
+
         {tags && tagSlugs && <Tags tags={tags} tagSlugs={tagSlugs} />}
+
+        <PrevNextPostNavigation prevPost={prevPost} nextPost={nextPost} />
 
         <NewsletterContainer />
       </div>

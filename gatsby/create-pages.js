@@ -1,7 +1,6 @@
 'use strict';
 
 const path = require('path');
-const _ = require('lodash');
 const createCategoriesPages = require('./pagination/create-categories-pages.js');
 const createTagsPages = require('./pagination/create-tags-pages.js');
 const createPostsPages = require('./pagination/create-posts-pages.js');
@@ -31,12 +30,13 @@ const createPages = async ({ graphql, actions }) => {
   const result = await graphql(`
     {
       allMarkdownRemark(
-        filter: { frontmatter: { draft: { ne: true } } }
+        filter: {frontmatter: {draft: {ne: true}}}, sort: {fields: frontmatter___date, order: DESC}
       ) {
         edges {
           node {
             frontmatter {
               template
+              title
             }
             fields {
               slug
@@ -48,21 +48,27 @@ const createPages = async ({ graphql, actions }) => {
   `);
 
   const { edges } = result.data.allMarkdownRemark;
+  const pages = edges.filter((edge) => edge.node.frontmatter.template === 'page');
+  const posts = edges.filter((edge) => edge.node.frontmatter.template === 'post');
+  console.log(pages, posts);
+  pages.forEach((edge) => {
+    createPage({
+      path: edge.node.fields.slug,
+      component: path.resolve('./src/templates/page-template.js'),
+      context: { slug: edge.node.fields.slug }
+    });
+  });
 
-  _.each(edges, (edge) => {
-    if (_.get(edge, 'node.frontmatter.template') === 'page') {
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/page-template.js'),
-        context: { slug: edge.node.fields.slug }
-      });
-    } else if (_.get(edge, 'node.frontmatter.template') === 'post') {
-      createPage({
-        path: edge.node.fields.slug,
-        component: path.resolve('./src/templates/post-template.js'),
-        context: { slug: edge.node.fields.slug }
-      });
-    }
+  posts.forEach((edge, index) => {
+    createPage({
+      path: edge.node.fields.slug,
+      component: path.resolve('./src/templates/post-template.js'),
+      context: {
+        slug: edge.node.fields.slug,
+        prevPost: index === posts.length - 1 ? null : posts[index + 1],
+        nextPost: index === 0 ? null : posts[index - 1],
+      }
+    });
   });
 
   // Feeds

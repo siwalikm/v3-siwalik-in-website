@@ -3,30 +3,32 @@ import type { Node as ReactNode } from 'react';
 
 export type RenderCallback = {
   // $FlowFixMe
-  render: (data: any) => ReactNode;
-}
+  render: (data: any) => ReactNode,
+};
 
 export type Entry = {
-  getIn: (string[]) => string;
-}
+  getIn: (string[]) => string,
+};
 
 export type WidgetFor = (string) => string;
 
 export type PageContext = {
+  prevPost?: Node | null,
+  nextPost?: Node | null,
   tag: string,
   category: string,
   currentPage: number,
   prevPagePath: string,
   nextPagePath: string,
   hasPrevPage: boolean,
-  hasNextPage: boolean
+  hasNextPage: boolean,
 };
 
 export type Node = {
   fields: {
     slug: string,
     categorySlug?: string,
-    tagSlugs?: string[]
+    tagSlugs?: string[],
   },
   frontmatter: {
     date: string,
@@ -35,15 +37,15 @@ export type Node = {
     tags?: string[],
     title: string,
     socialImage?: {
-      publicURL: string
-    }
+      publicURL: string,
+    },
   },
   html: string,
-  id: string
+  id: string,
 };
 
 export type Edge = {
-  node: Node
+  node: Node,
 };
 
 export type Edges = Array<Edge>;
@@ -54,8 +56,8 @@ export type AllMarkdownRemark = {
   },
   group: {
     fieldValue: string,
-    totalCount: number
-  }[]
+    totalCount: number,
+  }[],
 };
 
 export type MarkdownRemark = Node;
