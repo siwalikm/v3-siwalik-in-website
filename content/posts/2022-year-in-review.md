@@ -2,7 +2,7 @@
 template: post
 title: 2022 - A Rattling Good Year Or My Life's Most Gruesome Failure?
 slug: 2022-year-in-review
-draft: true
+draft: false
 socialImage: /media/siwalik-trying-to-fly.jpg
 date: 2022-12-25T20:08:55.149Z
 description: Reflecting on the good, bad, and ugly of the past year and consider how to move forward in a positive direction.
