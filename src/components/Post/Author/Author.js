@@ -31,16 +31,15 @@ const Author = ({ date, postSlug }: Props) => {
         >
           <strong>{author.name}</strong>
         </a>
-        . You can{' '}
+        . Spotted a typo? You can{' '}
         <a
           // className={styles['author__bio-twitter']}
           href={postURL}
           rel="noopener noreferrer"
           target="_blank"
         >
-          <strong>edit this page</strong>
-        </a>{' '}
-        here.
+          <strong>edit this page here</strong>
+        </a>.
       </p>
     </div>
   );
