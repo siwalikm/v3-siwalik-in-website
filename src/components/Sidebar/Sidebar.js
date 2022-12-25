@@ -7,6 +7,7 @@ import styles from './Sidebar.module.scss';
 import { useSiteMetadata } from '../../hooks';
 import Copyright from '../Copyright';
 import NewsletterContainer from '../Newsletter';
+import YoutubeSubscribe from '../YoutubeSubscribe';
 
 type Props = {
   isIndex?: boolean,
@@ -21,6 +22,7 @@ const Sidebar = ({ isIndex }: Props) => {
         <Author author={author} isIndex={isIndex} />
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
+        <YoutubeSubscribe/>
         <NewsletterContainer />
         <Copyright copyright={copyright} />
       </div>

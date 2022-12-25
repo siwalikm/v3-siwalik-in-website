@@ -1,0 +1,22 @@
+.youtube-subscribe {
+  width: auto;
+  background: var(--color-background);
+  margin: 30px 0;
+
+
+  input[type='button'] {
+    color: var(--color-background);
+    background: var(--color-highlight);
+    text-decoration: none;
+    border-radius: 0.3125rem;
+    padding: 0.5rem;
+    text-align: center;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    width: -webkit-fill-available;
+  }
+
+  input[type='button']:hover {
+    background-color: var(--color-base);
+  }
+}
