@@ -10,7 +10,7 @@ category: Musings
 ---
 
 2022 was the year of change for me. From exciting, and adventurous to anxious and uncertain. It was a time when I learned to live with a newfound sense of patience, and also gained an appreciation for the importance of keeping my goals realistic.
-Or at least tryied to.
+Or at least tried to.
 
 ![Photo of a man, jumping on the footpath with arms wide open](//media/siwalik-trying-to-fly.jpg 'Photo of author, trying to take off from some street in Alt Berlin')
 
@@ -30,7 +30,7 @@ I read "On the Shortness of Life" by Seneca and found it incredible. I also star
 ## Jump on to the Fitness Train
 I'm not sure how many of you are familiar with the term "New Year's resolution," but I am here to tell you that it's a lot like a gym membership.
 
-It's something you're supposed to do, but you never actually do it. It's something that makes your life better, but you don't believe it will. And when it comes down to it, it's just another thing on your list of things to do—and we all know how good we are at checking off those boxes!
+It's something you're supposed to do, but you never actually do it. It's something that makes your life better, but you don't believe it will. And when it comes down to it, it's just another thing in your list of things to do—and we all know how good we are at checking off those boxes!
 
 But this year was different. This year, I finally decided enough was enough: it was time to make some changes in my life and start taking care of myself—and that meant joining a gym.
 
