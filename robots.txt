@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /
+Sitemap: https://v3.siwalik.in/sitemap.xml
+Host: https://v3.siwalik.in

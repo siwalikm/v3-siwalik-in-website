@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://v3.siwalik.in/tags</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/categories</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/pages/projects/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/pages/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/posts/2022-year-in-review</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/posts/moving-europe-tech-job</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/posts/learning-and-retaining-technical-knowledge</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/posts/myth-of-perfect-tech-blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/posts/mastering-full-stack-with-javascripts-superpowers</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/posts/what-the-heck-is-jwt-anyway</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/tag/auth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/category/musings</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/category/programming</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://v3.siwalik.in/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+</urlset>
