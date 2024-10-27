@@ -119,6 +119,14 @@ module.exports = {
         plugins: [
           'gatsby-remark-relative-images',
           {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+              host: 'https://v3.siwalik.in',
+              sitemap: 'https://v3.siwalik.in/sitemap.xml',
+              policy: [{ userAgent: '*', disallow: '/' }]
+            }
+          },
+          {
             resolve: 'gatsby-remark-katex',
             options: {
               strict: 'ignore',
