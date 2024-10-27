@@ -3,7 +3,7 @@
 const year = new Date().getUTCFullYear();
 
 module.exports = {
-  url: 'https://v3.siwalik.in',
+  url: 'https://siwalik.in',
   year,
   pathPrefix: '/',
   title: 'Siwalik Mukherjee - Software Engineer and Designer',
